@@ -1,0 +1,222 @@
+﻿<Window x:Class="ILIANA_HANGMAN_V1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ILIANA_HANGMAN_V1"
+        mc:Ignorable="d"
+        Title="Hangman Iliana Benchikh" Height="650" Width="1000" >
+    <Grid Cursor="Pen">
+        <!--Image Background-->
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/background.jpg"/>
+        </Grid.Background>
+        <Grid.Resources>
+            <!--Style de mes boutons lettre-->
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Background" Value="{x:Null}"/>
+                <Setter Property="FontSize" Value="38"/>
+                <Setter Property="BorderThickness" Value="1" />
+                <Setter Property="BorderBrush" Value="{x:Null}" />
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="FontSize" Value="22" />
+                <Setter Property="FontFamily" Value="Kristen ITC"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="BorderBrush" Value="White" />
+                        <Setter Property="BorderThickness" Value="6" />
+                    </Style>
+                </Style.Resources>
+            </Style>
+            <!--Style de mes autres boutons-->
+            <Style x:Key="MyStyle" TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="8"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="0,0,6,6" />
+                <Setter Property="BorderBrush" Value="#e5e5e5" />
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontFamily" Value="Kristen ITC" />
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="BorderBrush" Value="White" />
+                        <Setter Property="BorderThickness" Value="0,0,6,6" />
+                        <Setter Property="BorderBrush" Value="White" />
+                        <Setter Property="CornerRadius" Value="15" />
+                    </Style>
+                </Style.Resources>
+            </Style>
+        </Grid.Resources>
+        <!--Je créer 3 lignes sur mon grid principal-->
+        <Grid.RowDefinitions>
+            <!--Zone qui contiendra les scores et les boutons FR et EN-->
+            <RowDefinition Height="*"/>
+            <!--Zone qui contiendra la TextBox Display-->
+            <RowDefinition Height="*"/>
+            <!--Zone qui contiendra mon champ image, le timer et mes autres boutons (Zone game)-->
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+        <!--Zone score-->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <!--Zone qui contiendra le meilleur score-->
+                <ColumnDefinition Width="2*"/>
+                <!--Zone qui contiendra le score-->
+                <ColumnDefinition Width="7*"/>
+                <!--Zone qui contiendra le BTN_EN-->
+                <ColumnDefinition Width="*"/>
+                <!--Zone qui contiendra le BTN_FR-->
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--TB_Score-->
+            <TextBlock Name="TB_Score" Text="0" FontSize="24" FontFamily="Kristen ITC" Grid.Column="1"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <!--TB_MsScore-->
+            <TextBlock Name="TB_MScore" Text="Meilleur score:" FontSize="12" FontFamily="Kristen ITC" />
+            <!--TB_MS-->
+            <TextBlock Name="TB_MS" Text="0" FontSize="12" FontFamily="Kristen ITC" HorizontalAlignment="Left" Margin="105,0,0,0" />
+            <!--BTN_EN-->
+            <Button Name="BTN_EN" Content="" Click="BTN_English_Click" Grid.Column="2">
+                <!--Image BTN_EN-->
+                <Button.Background>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Images/Anglais.png"/>
+                </Button.Background>
+            </Button>
+            <!--BTN_FR-->
+            <Button Content="" Name="BTN_FR" Click="BTN_Français_Click"  Grid.Column="3" VerticalAlignment="Bottom">
+                <!--Image BTN_FR-->
+                <Button.Background>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Images/France.png" />
+                </Button.Background>
+            </Button>
+        </Grid>
+        <!--Zone TB_Display-->
+        <Grid Grid.Row="1">
+            <!--TB_Display-->
+            <TextBox Name="TB_Display" Text="Appuie sur New Word pour commencer!" BorderBrush="{x:Null}" TextAlignment="Center" Background="{x:Null}" FontSize="30" FontFamily="Kristen ITC" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <!--Je créer 2 lignes pour séparer ma zone de jeu en 2-->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <!--Zone qui contiendra mon champ Image-->
+                <ColumnDefinition Width="*"/>
+                <!--Zone qui contiendra mes boutons et mon timer-->
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--Champ Image qui contient mes règles et qui affichera le pendu-->
+            <Image x:Name="Hangman" Grid.Row="1" IsEnabled="False" HorizontalAlignment="Stretch" Height="NaN" VerticalAlignment="Stretch" Width="NaN"  Source="Images/regles.png"/>
+            <!--Je coupe ma 2eme zone en 3-->
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <!--Zone qui contiendra mon timer-->
+                    <RowDefinition Height="2*"/>
+                    <!--Zone qui contiendra mes boutons "new word" et "indice"-->
+                    <RowDefinition Height="*"/>
+                    <!--Zone qui contiendra mes boutons lettres-->
+                    <RowDefinition Height="6*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <!--Zone de blanc-->
+                        <RowDefinition Height="*"/>
+                        <!--Zone timer-->
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+                    <!--Zone Timer-->
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <!--Zone de blanc-->
+                            <ColumnDefinition Width="4*"/>
+                            <!--Zone Image timer-->
+                            <ColumnDefinition Width="4*"/>
+                            <!--Zone timer-->
+                            <ColumnDefinition Width="4*"/>
+                            <!--Zone de blanc-->
+                            <ColumnDefinition Width="4*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--Image Timer-->
+                        <Image x:Name="TimerImg" Grid.Column="1" IsEnabled="False" Height="NaN" Width="NaN" Source="Images/Timer.png" />
+                        <!--TextBlock Timer-->
+                        <TextBlock Name="Timer" Text="60" FontSize="50" FontFamily="Kristen ITC" Grid.Column="2" HorizontalAlignment="left" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <!--Zone boutons word et indice-->
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <!--Zone de blanc-->
+                        <ColumnDefinition Width="3*"/>
+                        <!--Zone BTN_Word-->
+                        <ColumnDefinition Width="8*"/>
+                        <!--Zone BTN_Indice-->
+                        <ColumnDefinition Width="2*"/>
+                        <!--Zone de blanc-->
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <!--BTN_Word-->
+                    <Button  Grid.Column="1" Name="BTN_Word" Content="New Word" Click="BTN_Word_Click" Style="{StaticResource MyStyle}" />
+                    <!--BTN_Indice-->
+                    <Button  Grid.Column="2" Name="BTN_Indice" Content="?"  Click="BTN_Indice_Click" Style="{StaticResource MyStyle}" IsEnabled="False" />
+                </Grid>
+                <!--Zone boutons lettres-->
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <!--Zone de blanc-->
+                        <ColumnDefinition Width="*"/>
+                        <!--Zone BTN_lettre-->
+                        <ColumnDefinition Width="4*"/>
+                        <!--Zone de blanc-->
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <!--Je fais une grille pour mes BTN_lettre-->
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--BTN_Lettre-->
+                        <Button Grid.Row="0" Grid.Column="0" Name="BTN_A" Content="A" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="0" Grid.Column="1" Name="BTN_B" Content="B" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="0" Grid.Column="2" Name="BTN_C" Content="C" Click="BTN_Lettre_Click" IsEnabled="False"/>
+                        <Button Grid.Row="0" Grid.Column="3" Name="BTN_D" Content="D" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="1" Grid.Column="0" Name="BTN_E" Content="E" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="1" Grid.Column="1" Name="BTN_F" Content="F" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="1" Grid.Column="2" Name="BTN_G" Content="G" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="1" Grid.Column="3" Name="BTN_H" Content="H" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="2" Grid.Column="0" Name="BTN_I" Content="I" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="2" Grid.Column="1" Name="BTN_J" Content="J" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="2" Grid.Column="2" Name="BTN_K" Content="K" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="2" Grid.Column="3" Name="BTN_L" Content="L" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="3" Grid.Column="0" Name="BTN_M" Content="M" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="3" Grid.Column="1" Name="BTN_N" Content="N" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="3" Grid.Column="2" Name="BTN_O" Content="O" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="3" Grid.Column="3" Name="BTN_P" Content="P" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="4" Grid.Column="0" Name="BTN_Q" Content="Q" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="4" Grid.Column="1" Name="BTN_R" Content="R" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="4" Grid.Column="2" Name="BTN_S" Content="S" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="4" Grid.Column="3" Name="BTN_T" Content="T" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="5" Grid.Column="0" Name="BTN_U" Content="U" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="5" Grid.Column="1" Name="BTN_V" Content="V" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="5" Grid.Column="2" Name="BTN_W" Content="W" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="5" Grid.Column="3" Name="BTN_X" Content="X" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="6" Grid.Column="1" Name="BTN_Y" Content="Y" Click="BTN_Lettre_Click" IsEnabled="False" />
+                        <Button Grid.Row="6" Grid.Column="2" Name="BTN_Z" Content="Z" Click="BTN_Lettre_Click" IsEnabled="False" />
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

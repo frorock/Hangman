@@ -1,0 +1,108 @@
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.AssemblyReference.cache
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.g.cs
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.cache
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.lref
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.exe
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.deps.json
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.runtimeconfig.json
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.g.resources
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.GeneratedMSBuildEditorConfig.editorconfig
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfoInputs.cache
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfo.cs
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.CoreCompileInputs.cache
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\refint\ILIANA_HANGMAN_V1.dll
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.genruntimeconfig.cache
+D:\BENCHIKH\TP_Iliana\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ref\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.exe
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.deps.json
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.runtimeconfig.json
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.AssemblyReference.cache
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.cache
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.lref
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.g.resources
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfoInputs.cache
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfo.cs
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.CoreCompileInputs.cache
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\refint\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.genruntimeconfig.cache
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ref\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.exe
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.deps.json
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.runtimeconfig.json
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.AssemblyReference.cache
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.cache
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.lref
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.g.resources
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfoInputs.cache
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfo.cs
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.CoreCompileInputs.cache
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\refint\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.genruntimeconfig.cache
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ref\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.baml
+C:\Users\SN1G1\Desktop\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.baml
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.exe
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.deps.json
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.runtimeconfig.json
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.AssemblyReference.cache
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.cache
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.lref
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.baml
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.g.resources
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfoInputs.cache
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfo.cs
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.CoreCompileInputs.cache
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\refint\ILIANA_HANGMAN_V1.dll
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.genruntimeconfig.cache
+C:\Users\SN1G1\Downloads\ILIANA_HANGMAN_V1 (2)\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ref\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.exe
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.deps.json
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.runtimeconfig.json
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\bin\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.cache
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1_MarkupCompile.lref
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\App.baml
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.g.resources
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfoInputs.cache
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.AssemblyInfo.cs
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.csproj.CoreCompileInputs.cache
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\refint\ILIANA_HANGMAN_V1.dll
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.pdb
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ILIANA_HANGMAN_V1.genruntimeconfig.cache
+C:\Users\bench\Desktop\Projets\ILIANA_HANGMAN_V1\ILIANA_HANGMAN_V1\obj\Debug\net6.0-windows\ref\ILIANA_HANGMAN_V1.dll
